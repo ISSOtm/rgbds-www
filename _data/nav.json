@@ -2,30 +2,38 @@
 	"name": "Home",
 	"children": {
 		"faq": {
-			"name": "FAQ"
+			"name": "FAQ",
 		},
 		"feedback": {
-			"name": "Feedback"
+			"name": "Feedback",
 		},
 		"install": {
 			"name": "Install",
 			"children": {
 				"arch": {
-					"name": "Arch Linux"
+					"name": "Arch Linux",
 				},
 				"macos": {
-					"name": "macOS"
+					"name": "macOS",
 				},
 				"windows": {
-					"name": "Windows"
+					"name": "Windows",
 				},
 				"source": {
-					"name": "From source"
-				}
-			}
+					"name": "From source",
+				},
+			},
 		},
 		"docs": {
-			"name": "Docs"
-		}
-	}
+			"name": "Docs",
+			"children": {
+				"map": {
+					"name": "Map file reference",
+				},
+				"sym": {
+					"name": "Sym file reference",
+				},
+			},
+		},
+	},
 }
